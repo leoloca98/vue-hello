@@ -20,5 +20,6 @@ const root = new Vue({
     el: "#root",
     data: {
         name: "Leonardo Locatelli",
+        img: "https://picsum.photos/id/237/200/300",
     },
 });
