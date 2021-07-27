@@ -15,3 +15,10 @@ Aggiungere alla pagina un’immagine, la cui sorgente derivi anch'essa dai data 
 console.log("Vue is here", Vue);
 
 Vue.config.devtools = true;  //*FONDAMENTALE SE NO NON VA IL TOOL
+
+const root = new Vue({
+    el: "#root",
+    data: {
+        name: "Leonardo Locatelli",
+    },
+});
